@@ -87,13 +87,13 @@ const About = () => {
                   </p>
                 </div>
               </div>
-              <div className="flex w-full p-3 m-4 justify-center gap-4">
+              <div className="flex w-full p-3 m-4 justify-center gap-4 border border-[#25283B] rounded-md ">
                 {game.parent_platforms.map((platform, index) => (
                   <img
                     key={index}
                     src={platforms[platform.platform.slug]}
                     alt={platform.platform.slug}
-                    className="w-6 h-6 mr-2"
+                    className="w-8 h-8 mr-2"
                   />
                 ))}
               </div>
